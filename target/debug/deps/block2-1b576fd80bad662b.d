@@ -1,0 +1,13 @@
+/Users/drzzln/code/github/pleme-io/suzuri/target/debug/deps/block2-1b576fd80bad662b.d: /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/lib.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/abi.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/block.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/debug.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/ffi.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/global.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/rc_block.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/stack.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/traits.rs
+
+/Users/drzzln/code/github/pleme-io/suzuri/target/debug/deps/libblock2-1b576fd80bad662b.rmeta: /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/lib.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/abi.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/block.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/debug.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/ffi.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/global.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/rc_block.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/stack.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/traits.rs
+
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/lib.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/abi.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/block.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/debug.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/ffi.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/global.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/rc_block.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/stack.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.5.1/src/traits.rs:

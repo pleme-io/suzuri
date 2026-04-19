@@ -1,0 +1,44 @@
+[package]
+name = "suzuri"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Suzuri (硯) — GPU-accelerated terminal emulator"
+license = "MIT"
+
+[dependencies]
+# Terminal emulation
+vte = "0.15"
+
+# PTY management
+portable-pty = "0.8"
+
+# Windowing + GPU rendering
+winit = { version = "0.30", features = ["rwh_06"] }
+wgpu = "24"
+raw-window-handle = "0.6"
+
+# Font shaping + rendering
+cosmic-text = "0.12"
+
+# Configuration (pleme-io)
+shikumi = { path = "../shikumi" }
+serde = { version = "1", features = ["derive"] }
+figment = { version = "0.10", features = ["toml", "env"] }
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Error handling
+thiserror = "2"
+
+# Async
+pollster = "0.4"
+
+# GPU vertex data
+bytemuck = { version = "1", features = ["derive"] }
+
+[profile.release]
+codegen-units = 1
+lto = true

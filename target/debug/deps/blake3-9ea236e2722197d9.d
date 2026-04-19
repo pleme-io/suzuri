@@ -1,0 +1,12 @@
+/Users/drzzln/code/github/pleme-io/suzuri/target/debug/deps/blake3-9ea236e2722197d9.d: /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/lib.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/guts.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/hazmat.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/platform.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/ffi_neon.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/portable.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/io.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/join.rs
+
+/Users/drzzln/code/github/pleme-io/suzuri/target/debug/deps/libblake3-9ea236e2722197d9.rmeta: /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/lib.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/guts.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/hazmat.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/platform.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/ffi_neon.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/portable.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/io.rs /Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/join.rs
+
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/lib.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/guts.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/hazmat.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/platform.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/ffi_neon.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/portable.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/io.rs:
+/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.4/src/join.rs:
