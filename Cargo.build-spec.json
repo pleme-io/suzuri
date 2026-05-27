@@ -1601,7 +1601,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
-      "lib_target": null,
+      "lib_target": {
+        "name": "document_features",
+        "path": "lib.rs"
+      },
       "dependencies": [
         {
           "name": "litrs",
@@ -10664,6 +10667,15 @@
           "target": null
         },
         {
+          "name": "parking_lot",
+          "package_key": "parking_lot-0.12.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_arch = \"wasm32\")"
+        },
+        {
           "name": "profiling",
           "package_key": "profiling-1.0.18",
           "kind": "normal",
@@ -10711,6 +10723,72 @@
           "target": null
         },
         {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(not(target_arch = \"wasm32\"))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(all(unix, not(target_vendor = \"apple\")))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(any(not(target_arch = \"wasm32\"), target_os = \"emscripten\"))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(any(windows, all(unix, not(target_os = \"emscripten\"), not(target_vendor = \"apple\"))))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(windows)"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(target_vendor = \"apple\")"
+        },
+        {
           "name": "hal",
           "package_key": "wgpu-hal-24.0.4",
           "kind": "normal",
@@ -10720,6 +10798,28 @@
           "uses_default_features": true,
           "optional": false,
           "target": "cfg(all(not(target_arch = \"wasm32\"), unix, not(target_vendor = \"apple\")))"
+        },
+        {
+          "name": "hal",
+          "package_key": "wgpu-hal-24.0.4",
+          "kind": "normal",
+          "features": [
+            "renderdoc"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any(not(target_arch = \"wasm32\"), target_os = \"emscripten\"))"
+        },
+        {
+          "name": "hal",
+          "package_key": "wgpu-hal-24.0.4",
+          "kind": "normal",
+          "features": [
+            "renderdoc"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(windows)"
         },
         {
           "name": "wgt",
@@ -10787,6 +10887,15 @@
           "target": null
         },
         {
+          "name": "parking_lot",
+          "package_key": "parking_lot-0.12.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_arch = \"wasm32\")"
+        },
+        {
           "name": "profiling",
           "package_key": "profiling-1.0.18",
           "kind": "normal",
@@ -10834,6 +10943,72 @@
           "target": null
         },
         {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(not(target_arch = \"wasm32\"))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(all(unix, not(target_vendor = \"apple\")))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(any(not(target_arch = \"wasm32\"), target_os = \"emscripten\"))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(any(windows, all(unix, not(target_os = \"emscripten\"), not(target_vendor = \"apple\"))))"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(windows)"
+        },
+        {
+          "name": "wgc",
+          "package_key": "wgpu-core-24.0.5",
+          "kind": "normal",
+          "features": [
+            "raw-window-handle"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(target_vendor = \"apple\")"
+        },
+        {
           "name": "hal",
           "package_key": "wgpu-hal-24.0.4",
           "kind": "normal",
@@ -10843,6 +11018,28 @@
           "uses_default_features": true,
           "optional": false,
           "target": "cfg(all(not(target_arch = \"wasm32\"), unix, not(target_vendor = \"apple\")))"
+        },
+        {
+          "name": "hal",
+          "package_key": "wgpu-hal-24.0.4",
+          "kind": "normal",
+          "features": [
+            "renderdoc"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any(not(target_arch = \"wasm32\"), target_os = \"emscripten\"))"
+        },
+        {
+          "name": "hal",
+          "package_key": "wgpu-hal-24.0.4",
+          "kind": "normal",
+          "features": [
+            "renderdoc"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(windows)"
         },
         {
           "name": "wgt",
@@ -10882,9 +11079,41 @@
           {
             "version": "24.0.5",
             "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
+          },
+          {
+            "version": "24.0.5",
+            "rename": "wgc"
           }
         ],
         "wgpu-hal": [
+          {
+            "version": "24.0.4",
+            "rename": "hal"
+          },
+          {
+            "version": "24.0.4",
+            "rename": "hal"
+          },
           {
             "version": "24.0.4",
             "rename": "hal"
@@ -11399,6 +11628,15 @@
           "target": "cfg(not(target_arch = \"wasm32\"))"
         },
         {
+          "name": "khronos_egl",
+          "package_key": "khronos-egl-6.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_os = \"emscripten\")"
+        },
+        {
           "name": "libc",
           "package_key": "libc-0.2.186",
           "kind": "normal",
@@ -11415,6 +11653,15 @@
           "uses_default_features": true,
           "optional": true,
           "target": "cfg(not(target_arch = \"wasm32\"))"
+        },
+        {
+          "name": "libloading",
+          "package_key": "libloading-0.8.9",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(target_os = \"emscripten\")"
         },
         {
           "name": "log",
@@ -11640,6 +11887,15 @@
           "target": "cfg(not(target_arch = \"wasm32\"))"
         },
         {
+          "name": "khronos_egl",
+          "package_key": "khronos-egl-6.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_os = \"emscripten\")"
+        },
+        {
           "name": "libc",
           "package_key": "libc-0.2.186",
           "kind": "normal",
@@ -11656,6 +11912,15 @@
           "uses_default_features": true,
           "optional": true,
           "target": "cfg(not(target_arch = \"wasm32\"))"
+        },
+        {
+          "name": "libloading",
+          "package_key": "libloading-0.8.9",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": "cfg(target_os = \"emscripten\")"
         },
         {
           "name": "log",
@@ -11817,6 +12082,10 @@
           }
         ],
         "khronos-egl": [
+          {
+            "version": "6.0.0",
+            "rename": "khronos_egl"
+          },
           {
             "version": "6.0.0",
             "rename": "khronos_egl"
@@ -12047,6 +12316,15 @@
           "target": "cfg(target_os = \"ios\")"
         },
         {
+          "name": "objc2_foundation",
+          "package_key": "objc2-foundation-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_os = \"macos\")"
+        },
+        {
           "name": "rwh_06",
           "package_key": "raw-window-handle-0.6.2",
           "kind": "normal",
@@ -12161,6 +12439,15 @@
           "target": "cfg(target_os = \"ios\")"
         },
         {
+          "name": "objc2_foundation",
+          "package_key": "objc2-foundation-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(target_os = \"macos\")"
+        },
+        {
           "name": "rwh_06",
           "package_key": "raw-window-handle-0.6.2",
           "kind": "normal",
@@ -12227,6 +12514,10 @@
           }
         ],
         "objc2-foundation": [
+          {
+            "version": "0.2.2",
+            "rename": "objc2_foundation"
+          },
           {
             "version": "0.2.2",
             "rename": "objc2_foundation"
